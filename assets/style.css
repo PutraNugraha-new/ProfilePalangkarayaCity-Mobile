@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap');
+
+:root {
+    --maincolor: #2196f3;
+    --font:'Ubuntu Condensed', sans-serif;
+}
+
+html {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.page {
+    background-color: #fafafa;
+}
+
+.title {
+    font-family: 'Fasthand', cursive;
+    color: white;
+    font-weight: 100;
+}
+
+.hero {
+    margin: 0;
+    width: 100%;
+    min-height: 40vh;
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url('../image/hero.jpg');
+    /* background-image: url('../image/hero.jpg'); */
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+}
+
+.hero .navbar {
+    margin: 0;
+    /* background-color: red; */
+    width: 100%;
+}
+
+.hero img {
+    max-width: 30%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    /* background-color: red; */
+}
+
+.konten {
+    background-color: white;
+    margin: -30px auto 10px auto;
+    width: 90%;
+    border-radius: 15px;
+    box-shadow: 0px 3px 15px 1px rgba(0, 0, 0, 0.49);
+}
+
+.konten h2 {
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+.konten h2 strong {
+    font-style: italic;
+    font-weight: 500;
+}
+
+.konten p {
+    color: #9AA1AF;
+    font-weight: 500;
+}
+
+.konten p strong {
+    color: var(--maincolor);
+    font-weight: bold;
+}
+
+.konten .button {
+    width: 100%;
+    margin: 20px;
+}
+
+/* sejarah */
+.hero-sejarah {
+    margin: 0;
+    min-height: 40vh;
+    /* background-image: url('../image/sejarah1.jpg'); */
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url('../image/sejarah1.jpg');
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+}
+
+.konten-sejarah {
+    background-color: white;
+    margin: -30px auto 10px auto;
+    width: 90%;
+    border-radius: 15px;
+}
+
+.konten-sejarah img {
+    max-width: 100%;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.sejarah .card {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+}
+
+.deskripsi {
+    margin: 0;
+    padding: 10px;
+    text-align: justify;
+    border-radius: 15px;
+    box-shadow: 0px 3px 15px 1px rgba(0, 0, 0, 0.49);
+    background-color: white;
+}
+
+.deskripsi p {
+    color: #9AA1AF;
+    font-weight: 500;
+}
+
+.deskripsi p strong {
+    color: var(--maincolor);
+    font-weight: bold;
+}
+
+/* suku */
+.hero-suku {
+    margin: 0;
+    min-height: 40vh;
+    /* background-image: url('../image/sejarah1.jpg'); */
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url('../image/SukuDayak1.jpg');
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+}
+
+.konten-suku {
+    background-color: white;
+    margin: -30px auto 10px auto;
+    width: 90%;
+    border-radius: 15px;
+}
+
+/* budaya */
+.konten-budaya {
+    /* background-color: red; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-budaya {
+    margin: 0;
+    min-height: 40vh;
+    /* background-image: url('../image/sejarah1.jpg'); */
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url('../image/t3.jpg');
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+}
+
+.sejarah .budaya {
+    /* background-color: red; */
+    width: 100%;
+    margin: 0 auto 0 auto;
+}
+
+.budaya a {
+    margin-right: 10px;
+    height: min-content;
+}
+
+.budaya img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.gambar-senjata {
+    background-color: white;
+    margin: 30px auto 10px auto;
+    width: 90%;
+    border-radius: 15px;
+}
+
+.senjata {
+    margin: 20px auto 0 0;
+    width: 100%;
+    /* box-shadow: 0px 3px 15px 1px rgba(0,0,0,0.49); */
+    background-color: transparent;
+    border-radius: 15px;
+}
+
+.senjata img {
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.tabs-animated-wrap {
+    /* background-color: red; */
+    height: fit-content;
+}
+
+/* wisata */
+.hero-wisata {
+    margin: 0;
+    min-height: 40vh;
+    /* background-image: url('../image/sejarah1.jpg'); */
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url('../image/wisata.jpg');
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+}
+
+.wisata {
+    /* background-color:white; */
+    margin: -30px auto 10px auto;
+    width: 90%;
+    border-radius: 15px;
+}
+
+.wisata img {
+    width: 100%;
+}
+
+/* author */
+.author{
+    width: 100%;
+    height: 50vh;
+    margin: 0;
+}
+.author .title{
+    /* background-color: red; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.author .title h3{
+    color: #000;
+    font-family: var(--font);
+    font-size: 1.5em;
+}
+.hero-author{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.hero-author img{
+    width: 100%;
+}
+
+.author-data-hero {
+    margin-bottom: 20px;
+}
+.author-data-hero img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* landing */
+.landing {
+    margin: 0;
+    padding-top: 20px;
+    width: 100%;
+    height: 100vh;
+    background-image: url('../image/Group1.png');
+    background-position: center;
+    background-size: cover;
+}
+.landing .title{
+    display: flex;
+    justify-content: center;
+}
+.landing .title h3 {
+    font-family: var(--font);
+    color: #fff;
+    font-size: 1.3em;
+}
+.landing-hero {
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.landing img {
+    width: 70%;
+    animation: animation1 3s ease-in-out 1s  normal none;
+}
+.landing-desc p{
+    font-family: var(--font);
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.landing a{
+    background-color: #1b1751;
+    color: #fff;
+    text-transform: capitalize;
+    box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.40);
+}
+.landing a:hover{
+    background-color: #1b1751 !important;
+    
+}
+.landing a i{
+    margin-left: 10px;
+}
+
+/* keyframes animasi landing */
+@keyframes animation1 {
+    0% {
+        animation-timing-function: ease-in;opacity: 1;transform: translateY(-45px);
+    }
+    24% {
+        opacity: 1;
+    }
+    40% {
+        animation-timing-function: ease-in;transform: translateY(-24px);
+    }
+    65% {
+        animation-timing-function: ease-in;transform: translateY(-12px);
+    }
+    82% {
+        animation-timing-function: ease-in;transform: translateY(-6px);
+    }
+    93% {
+        animation-timing-function: ease-in;transform: translateY(-4px);
+    }
+    25%,55%,75%,87% {
+        animation-timing-function: ease-out;transform: translateY(0px);
+    }
+    100% {
+        animation-timing-function: ease-out;opacity: 1;transform: translateY(0px);
+    }
+    
+}

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <meta name="theme-color" content="#2196f3">
+
+    <title>Palangkaraya</title>
+
+    <link rel="stylesheet" href="../assets/framework7-bundle.min.css">
+    <link rel="stylesheet" href="../assets/framework7-icons.css">
+    <link rel="stylesheet" href="../assets/style.css">
+    <!--link rel="stylesheet" href="aset/my-app.css"-->
+</head>
+
+<body>
+
+    <div id="app">
+        <!-- App root element -->
+
+        <div class="view view-main">
+            <div class="page stacked" data-name="suku">
+                <div class="page-content">
+                    <div class="block hero-suku">
+                        <div class="navbar">
+                            <!-- <div class="navbar-bg"></div> -->
+                            <div class="navbar-inner">
+                                <div class="left">
+                                    <a href="#" class="back" data-transition="f7-cover-v"><i
+                                            class="f7-icons text-color-white">arrow_left</i></a>
+                                </div>
+                                <div class="title">Suku - Suku di Palangka Raya</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block sejarah">
+                        <div class="row">
+                            <div class="row deskripsi">
+                                <p>Kota Palangka Raya dihuni berbagai macam suku bangsa, dengan 3 suku bangsa dominan,
+                                    yaitu <strong> Dayak (34,49%), Banjar (30,46%) dan Jawa (25,36%) </strong>. Suku
+                                    bangsa lainnya yang
+                                    mendiami Palangka Raya yaitu <strong> Batak, Bali, Flores, Madura, Sunda, Melayu,
+                                        Bugis,
+                                        Mandar, Tionghoa, Minang dan lain-lain.. </strong> </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Referensi -->
+                    <div class="block-title">Refrensi</div>
+                    <div class="list accordion-list">
+                        <ul>
+                            <li class="accordion-item"><a class="item-content item-link" href="#">
+                                    <div class="item-inner">
+                                        <div class="item-title">Sumber Data</div>
+                                    </div>
+                                </a>
+                                <div class="accordion-item-content">
+                                    <div class="block">
+                                        <a href="https://id.wikipedia.org/wiki/Kota_Palangka_Raya#Suku_Bangsa"
+                                            class="link external" target="_blank">
+                                            Wikipedia
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="accordion-item"><a class="item-content item-link" href="#">
+                                    <div class="item-inner">
+                                        <div class="item-title">Sumber Gambar</div>
+                                    </div>
+                                </a>
+                                <div class="accordion-item-content">
+                                    <div class="block">
+                                        <a href="https://www.ilmubudaya.com/2019/08/kebudayaan-suku-dayak.html"
+                                            class="link external" target="_blank">
+                                            Gambar 1
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- penutup referensi -->
+                </div>
+
+            </div>
+        </div><!-- App root element -->
+
+
+        <script type="text/javascript" src="../assets/framework7-bundle.min.js"></script>
+        <!--script type="text/javascript" src="aset/my-app.js"></script-->
+
+        <script>
+            var app = new Framework7({
+                el: '#app',
+                name: 'UTS-PBPB',
+                id: 'Palangkaraya',
+                panel: {
+                    swipe: true,
+                },
+                view: {
+                    stackPages: true,
+                },
+                routes: [{
+                        path: '/sejarah/',
+                        url: 'sejarah.html',
+                    },
+                    {
+                        path: '/geografi/',
+                        url: 'geografi.html',
+                    },
+                    {
+                        path: '/suku/',
+                        url: 'suku.html',
+                    },
+                    {
+                        path: '/budaya/',
+                        url: 'budaya.html',
+                    },
+                    {
+                        path: '/wisata/',
+                        url: 'wisata.html',
+                    },
+                    {
+                        path: '/alamat/',
+                        url: 'alamat.html',
+                    },
+                    {
+                        path: '/nomor/',
+                        url: 'nomor.html',
+                    },
+                    {
+                        path: '/author/',
+                        url: 'author.html',
+                    },
+                ],
+            });
+            var mainView = app.views.create('.view-main');
+        </script>
+
+</body>
+
+</html>
